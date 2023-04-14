@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Jay Gandhi/Downloads/selenium4poc-master/Appium_311">
+        <classes>
+            <class name="Tests.RestAssured.Login_API">
+                <methods>
+                    <include name="post_api"/>
+                </methods>
+            </class>
+            <class name="Tests.RestAssured.Register_API">
+                <methods>
+                    <include name="registerAPI"/>
+                </methods>
+            </class>
+            <class name="Tests.TestCases.Login.ForgotPw">
+                <methods>
+                    <include name="ForgotPassword"/>
+                </methods>
+            </class>
+            <class name="Tests.TestCases.Login.Login">
+                <methods>
+                    <include name="login"/>
+                </methods>
+            </class>
+            <class name="Tests.TestCases.Register.Registration">
+                <methods>
+                    <include name="register"/>
+                    <include name="register_API"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
