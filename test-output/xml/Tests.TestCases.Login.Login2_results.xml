@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Appium_311"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="11.450">
+    <properties></properties>
+
+
+
+            <testcase
+                name="login"
+                time="11.450"
+                classname="Tests.TestCases.Login.Login2">
+            </testcase>
+</testsuite>

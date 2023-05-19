@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Appium_311"
+           tests="18"
+           failures="3"
+           errors="0"
+           skipped="0"
+           time="220.652">
+    <properties></properties>
+
+            <testcase
+                name="ForgotPassword"
+                time="6.945"
+                classname="Tests.TestCases.Login.ForgotPw">
+
+            <failure type="java.lang.AssertionError" message="Email is not valid">
+                <![CDATA[java.lang.AssertionError: Email is not valid
+                org.testng.Assert.fail(Assert.java:110)Tests.TestCases.Login.ForgotPw.ForgotPassword(ForgotPw.java:34)java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)java.base/java.lang.reflect.Method.invoke(Method.java:568)org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)java.base/java.util.ArrayList.forEach(ArrayList.java:1511)org.testng.TestRunner.privateRun(TestRunner.java:829)org.testng.TestRunner.run(TestRunner.java:602)org.testng.SuiteRunner.runTest(SuiteRunner.java:437)org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)org.testng.SuiteRunner.run(SuiteRunner.java:330)org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)org.testng.TestNG.runSuitesLocally(TestNG.java:1176)org.testng.TestNG.runSuites(TestNG.java:1099)org.testng.TestNG.run(TestNG.java:1067)com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </failure>
+    </testcase>
+            <testcase
+                name="ForgotPassword"
+                time="5.046"
+                classname="Tests.TestCases.Login.ForgotPw">
+
+            <failure type="java.lang.AssertionError" message="Entered email does not exists">
+                <![CDATA[java.lang.AssertionError: Entered email does not exists
+                org.testng.Assert.fail(Assert.java:110)Tests.TestCases.Login.ForgotPw.ForgotPassword(ForgotPw.java:40)jdk.internal.reflect.GeneratedMethodAccessor154.invoke(Unknown Source)java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)java.base/java.lang.reflect.Method.invoke(Method.java:568)org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)java.base/java.util.ArrayList.forEach(ArrayList.java:1511)org.testng.TestRunner.privateRun(TestRunner.java:829)org.testng.TestRunner.run(TestRunner.java:602)org.testng.SuiteRunner.runTest(SuiteRunner.java:437)org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)org.testng.SuiteRunner.run(SuiteRunner.java:330)org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)org.testng.TestNG.runSuitesLocally(TestNG.java:1176)org.testng.TestNG.runSuites(TestNG.java:1099)org.testng.TestNG.run(TestNG.java:1067)com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </failure>
+    </testcase>
+            <testcase
+                name="ForgotPassword"
+                time="3.439"
+                classname="Tests.TestCases.Login.ForgotPw">
+
+            <failure type="java.lang.AssertionError" message="Email is not valid">
+                <![CDATA[java.lang.AssertionError: Email is not valid
+                org.testng.Assert.fail(Assert.java:110)Tests.TestCases.Login.ForgotPw.ForgotPassword(ForgotPw.java:34)jdk.internal.reflect.GeneratedMethodAccessor154.invoke(Unknown Source)java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)java.base/java.lang.reflect.Method.invoke(Method.java:568)org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)java.base/java.util.ArrayList.forEach(ArrayList.java:1511)org.testng.TestRunner.privateRun(TestRunner.java:829)org.testng.TestRunner.run(TestRunner.java:602)org.testng.SuiteRunner.runTest(SuiteRunner.java:437)org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)org.testng.SuiteRunner.run(SuiteRunner.java:330)org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)org.testng.TestNG.runSuitesLocally(TestNG.java:1176)org.testng.TestNG.runSuites(TestNG.java:1099)org.testng.TestNG.run(TestNG.java:1067)com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </failure>
+    </testcase>
+
+
+            <testcase
+                name="ForgotPassword"
+                time="14.338"
+                classname="Tests.TestCases.Login.ForgotPw">
+            </testcase>
+            <testcase
+                name="ForgotPassword"
+                time="14.668"
+                classname="Tests.TestCases.Login.ForgotPw">
+            </testcase>
+            <testcase
+                name="ForgotPassword"
+                time="13.986"
+                classname="Tests.TestCases.Login.ForgotPw">
+            </testcase>
+            <testcase
+                name="ForgotPassword"
+                time="14.077"
+                classname="Tests.TestCases.Login.ForgotPw">
+            </testcase>
+            <testcase
+                name="ForgotPassword"
+                time="13.300"
+                classname="Tests.TestCases.Login.ForgotPw">
+            </testcase>
+            <testcase
+                name="ForgotPassword"
+                time="11.846"
+                classname="Tests.TestCases.Login.ForgotPw">
+            </testcase>
+            <testcase
+                name="ForgotPassword"
+                time="14.430"
+                classname="Tests.TestCases.Login.ForgotPw">
+            </testcase>
+            <testcase
+                name="ForgotPassword"
+                time="13.233"
+                classname="Tests.TestCases.Login.ForgotPw">
+            </testcase>
+            <testcase
+                name="ForgotPassword"
+                time="13.244"
+                classname="Tests.TestCases.Login.ForgotPw">
+            </testcase>
+            <testcase
+                name="ForgotPassword"
+                time="15.267"
+                classname="Tests.TestCases.Login.ForgotPw">
+            </testcase>
+            <testcase
+                name="ForgotPassword"
+                time="13.009"
+                classname="Tests.TestCases.Login.ForgotPw">
+            </testcase>
+            <testcase
+                name="ForgotPassword"
+                time="12.894"
+                classname="Tests.TestCases.Login.ForgotPw">
+            </testcase>
+            <testcase
+                name="ForgotPassword"
+                time="11.709"
+                classname="Tests.TestCases.Login.ForgotPw">
+            </testcase>
+            <testcase
+                name="ForgotPassword"
+                time="14.385"
+                classname="Tests.TestCases.Login.ForgotPw">
+            </testcase>
+            <testcase
+                name="ForgotPassword"
+                time="14.836"
+                classname="Tests.TestCases.Login.ForgotPw">
+            </testcase>
+</testsuite>

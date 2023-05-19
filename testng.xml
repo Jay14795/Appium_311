@@ -3,12 +3,14 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="C:/Users/Jay Gandhi/Downloads/selenium4poc-master/Appium_311">
         <classes>
-            <class name="Tests.RestAssured.Login_API">
+            <class name="Tests.APIs.Login_API">
                 <methods>
                     <include name="post_api"/>
                 </methods>
+
+
             </class>
-            <class name="Tests.RestAssured.Register_API">
+            <class name="Tests.APIs.Register_API">
                 <methods>
                     <include name="registerAPI"/>
                 </methods>
